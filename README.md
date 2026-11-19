@@ -2,7 +2,7 @@
 
 A hybrid movie recommender that combines **Content-Based Filtering** and **Collaborative Filtering (SVD)**, with a simple Streamlit web app.
 
-🔗 **Live demo:** (Streamlit link yahan paste karna)
+🔗 **Live demo:** https://movie-recommender-dcmd7ccr2nhn9pnms669qh.streamlit.app
 
 ## Features
 - **Content-Based Filtering:** recommends movies similar to a selected movie using TF-IDF on genres and tags, with cosine similarity.
