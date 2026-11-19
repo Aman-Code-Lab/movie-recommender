@@ -24,13 +24,12 @@ A hybrid movie recommender that combines **Content-Based Filtering** and **Colla
 
 | Method | Precision@10 | Recall@10 |
 |---|---|---|
-| Popularity baseline | XXX | XXX |
-| Content-based | XXX | XXX |
-| Collaborative (SVD) | XXX | XXX |
-| Hybrid (alpha = 0.7) | XXX | XXX |
+| Popularity baseline | 0.2010 | 0.0911 |
+| Content-based | 0.0327 | 0.0132 |
+| Collaborative (SVD) | 0.1859 | 0.1052 |
+| Hybrid (alpha = 0.7) | 0.0960 | 0.0555 |
 
-**Rating prediction:** Baseline RMSE = XXX, SVD RMSE = XXX
-
+**Rating prediction:** Baseline RMSE = 1.0488, SVD RMSE = 0.9322
 ## Tech stack
 Python, pandas, NumPy, SciPy, scikit-learn, Streamlit
 
